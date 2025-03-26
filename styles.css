@@ -39,6 +39,7 @@ margin-bottom: 5px;
 
 input {
 width: 100%;
+box-sizing: border-box;
 padding: 10px;
 border: 1px solid #ccc;
 border-radius: 5px;
@@ -47,7 +48,7 @@ transition: 0.3s;
 }
 
 input:focus {
-border-color: #ff7e5f;
+border-color: #cc5538;
 box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
 outline: none;
 }
